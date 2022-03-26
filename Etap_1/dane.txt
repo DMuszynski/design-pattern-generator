@@ -1,0 +1,38 @@
+Nazwiska, imiona, adresy mailowe oraz numery grup członków zespołu:
+    * Damian Muszyński, d.muszynski.acc@gmail.com, 1IZ21A
+
+Temat projektu:
+    * Wzorce projektowe
+
+Spis technologii, które będą używane (systemów, języków programowania, najważniejszych bibliotek, frameworków, itp.):
+    * IntelliJ IDEA - zintegrowane środowisko programistyczne IDE w jakim będzie implementowana aplikacja.
+    * Git - system kontroli wersji wykorzystwany w projekcie.
+    * Java SE 17 - obiektowy język programowania ogólnego zastosowania.
+    * Maven - narzędzie automatyzujące budowę oprogramowania.
+    * Spring Boot - framework oparty na języku Java, umożliwiający tworzenie autonomicznych aplikacji internet. Backend aplikacji
+    * Angular - otwarty framework i platforma do tworzenia SPA. Frontend aplikacji
+
+Realistyczny harmonogram pracy wraz z listą funkcjonalności, które zostaną zaimplementowane:
+----------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                               |
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+|    27.03.2022    |    10.04.2022    |           2          |                 |
+|    11.04.2022    |    24.04.2022    |           3          |  |
+|    25.04.2022    |    08.05.2022    |           4          |                                                           |
+|    09.05.2022    |    22.05.2022    |           5          |     |
+|    23.05.2022    |    29.05.2022    |           6          |     |
+|    30.05.2022    |    12.06.2022    |           7          |     |
+|    13.06.2022    |    26.06.2022    |           8          | Oddanie pracy                                                                   |
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+
+Podział pracy w zespole:
+    * Projekt jest realizowany wyłącznie przeze mnie, więc biorę na siebie cały proces realizacji projektu.
+
+Temat projekty z przedmiotu "Programowanie Systemów Rozproszonych":
+    * TSP - algorytmem genetycznym.
+
+Temat pracy inżynierskiej:
+    * Projekt i implementacja aplikacji webowej dla wielobranżowego sklepu internetowego.
+
+Temat pracy magisterskiej:
+    * Nieokreślony
