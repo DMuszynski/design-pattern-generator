@@ -16,12 +16,12 @@ Realistyczny harmonogram pracy wraz z listą funkcjonalności, które zostaną z
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                               |
  ----------------------------------------------------------------------------------------------------------------------------------------------
-|    27.03.2022    |    10.04.2022    |           2          |                 |
-|    11.04.2022    |    24.04.2022    |           3          |  |
-|    25.04.2022    |    08.05.2022    |           4          |                                                           |
-|    09.05.2022    |    22.05.2022    |           5          |     |
-|    23.05.2022    |    29.05.2022    |           6          |     |
-|    30.05.2022    |    12.06.2022    |           7          |     |
+|    27.03.2022    |    10.04.2022    |           2          | Dodanie części teoretycznej wzorców projektowych z przykładem zastosowania      |
+|    11.04.2022    |    24.04.2022    |           3          | Dodanie części teoretycznej wzorców projektowych z przykładem zastosowania      |
+|    25.04.2022    |    08.05.2022    |           4          | Przygotowanie projektu narzędzia do generowania wzorców projektowych            |
+|    09.05.2022    |    22.05.2022    |           5          | Implementacja projektu narzędzia do generowania wzorców projektowych            |
+|    23.05.2022    |    29.05.2022    |           6          | Implementacja projektu narzędzia do generowania wzorców projektowych            |
+|    30.05.2022    |    12.06.2022    |           7          | Implementacja projektu narzędzia do generowania wzorców projektowych            |
 |    13.06.2022    |    26.06.2022    |           8          | Oddanie pracy                                                                   |
  ----------------------------------------------------------------------------------------------------------------------------------------------
 
