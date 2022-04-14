@@ -1,0 +1,9 @@
+<mat-toolbar color="warn">
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="newSidenavToggleStatus()">
+      <mat-icon *ngIf="!getSidenavOpened()">menu</mat-icon>
+      <mat-icon *ngIf="getSidenavOpened()">close</mat-icon>
+    </button>
+    <h1>DPGenerator</h1>
+  </mat-toolbar-row>
+</mat-toolbar>

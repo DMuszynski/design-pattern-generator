@@ -1,0 +1,35 @@
+mat-sidenav-container {
+  //height: calc(100vh - 65px);
+}
+mat-sidenav {
+  margin: 15px 12px 0 0;
+  width: 220px;
+  border-right: none;
+  background: #f44336;
+  color: #fff;
+  border-radius: 0 5px 0 0;
+  text-align: center;
+}
+mat-nav-list{
+  padding: 0;
+  margin: 5px;
+}
+mat-list-item {
+  font-size: 14px !important;
+  text-align: left;
+}
+mat-expansion-panel{
+  background: inherit;
+  margin-bottom: 5px;
+}
+.content {
+  height: calc(90vh - 16px);
+  margin: 16px 16px 0 16px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: lightgray;
+  border-radius: 5px 5px 0 0;
+}

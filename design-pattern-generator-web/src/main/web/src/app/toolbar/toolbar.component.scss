@@ -1,0 +1,12 @@
+mat-toolbar {
+  height: 10%;
+}
+mat-toolbar-row {
+  height: 100%;
+}
+
+@media (min-width: 800px) {
+  .mat-icon-button {
+    display: none;
+  }
+}

@@ -1,0 +1,41 @@
+<mat-sidenav-container class="sidenav">
+  <mat-sidenav mode="side" opened="{{getSidenavOpened()}}">
+    <mat-nav-list>
+      <span *ngFor="let item of getDPMenuNavigation()">
+        <span *ngIf="item.patterns && item.patterns.length > 0">
+
+          <mat-accordion>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <!-- Cabeceras del submenu -->
+    <!--                <mat-icon>{{item.iconName}}</mat-icon>-->
+                    {{item.category}}
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <span *ngFor="let child of item.patterns">
+                <mat-list-item routerLink="/">
+                  <!-- Entradas de cada submenú  -->
+                  <div fxLayout="row" fxLayoutAlign="space-between center" >
+<!--                      <mat-icon>{{child.iconName}}</mat-icon>-->
+                    {{child.name}}
+
+                  </div>
+                </mat-list-item>
+              </span>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </span>
+      </span>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="content">
+      Main content
+    </div>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+

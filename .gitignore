@@ -6,6 +6,7 @@
 # compiled output
 dist/
 tmp/
+target/
 app/**/*.js
 app/**/*.js.map
 
