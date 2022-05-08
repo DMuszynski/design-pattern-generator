@@ -12,6 +12,7 @@
     <packaging>war</packaging>
 
     <properties>
+        <org.projectlombok.version>1.18.22</org.projectlombok.version>
         <spring.boot.starter>2.6.5</spring.boot.starter>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -22,6 +23,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring.boot.starter}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${org.projectlombok.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

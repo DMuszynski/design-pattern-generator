@@ -6,15 +6,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Getter
-public class Method extends AccessibleMember {
+public abstract class Method extends AccessibleMember {
     private List<MethodParam> params;
-    private String description;
 
     public Method(ModifierType modifier, boolean trustedFinal, boolean trustedStatic, TypeName type, String name,
-                  List<MethodParam> params, String description) {
+                  List<MethodParam> params) {
         super(modifier, trustedFinal, trustedStatic, type, name);
         this.params = params;
-        this.description = description;
     }
 
     public Method(ModifierType modifier, boolean trustedFinal, boolean trustedStatic, TypeName type, String name) {
@@ -30,7 +28,6 @@ public class Method extends AccessibleMember {
         return super.toString() + "(" + params
                 .stream()
                 .map(MethodParam::toString)
-                .collect(Collectors.joining(", ")) + ") " +
-                "{\n" + description + "\n}";
+                .collect(Collectors.joining(", ")) + ")";
     }
 }

@@ -1,18 +1,17 @@
-package pl.dmuszynski.designpatterngenerator.builder;
+package pl.dmuszynski.designpatterngenerator.member;
 
-import lombok.*;
+public class Field extends AccessibleMember {
 
-@Getter
-@Setter
-@EqualsAndHashCode
-@AllArgsConstructor
-public class Field {
-    private String name;
-    private String type;
-    private String modifier;
+    public Field(ModifierType modifier, boolean trustedFinal, boolean trustedStatic, TypeName type, String name) {
+        super(modifier, trustedFinal, trustedStatic, type, name);
+    }
+
+    public Field(ModifierType modifier, TypeName type, String name) {
+        super(modifier, type, name);
+    }
 
     @Override
     public String toString() {
-        return modifier + " " + type + " " + name + ";";
+        return super.toString() + ";";
     }
 }

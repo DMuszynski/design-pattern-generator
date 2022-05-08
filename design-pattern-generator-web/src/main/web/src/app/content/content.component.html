@@ -1,1 +1,11 @@
-<p>content works!</p>
+<ng-container [ngSwitch]="getSelectedPattern()">
+  <ng-container *ngSwitchDefault>
+    <app-singleton-pattern></app-singleton-pattern>
+  </ng-container>
+  <ng-container *ngSwitchCase="'singleton'">
+    <app-singleton-pattern></app-singleton-pattern>
+  </ng-container>
+  <ng-container *ngSwitchCase="'factory-method'">
+    <app-factory-method-pattern></app-factory-method-pattern>
+  </ng-container>
+</ng-container>

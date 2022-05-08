@@ -1,2 +1,5 @@
-package pl.dmuszynski.designpatterngenerator.builder;public class DesignPatternBuilder {
+package pl.dmuszynski.designpatterngenerator.builder;
+
+public class DesignPatternBuilder {
+
 }

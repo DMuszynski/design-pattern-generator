@@ -2,7 +2,7 @@ package pl.dmuszynski.designpatterngenerator.builder.creational.factorymethod;
 
 public interface IFactoryMethod {
     void buildProduct();
-    void buildConcreteProduct();
+    void buildConcreteProducts();
     void buildCreator();
-    void buildConcreteCreator();
+    void buildConcreteCreators();
 }

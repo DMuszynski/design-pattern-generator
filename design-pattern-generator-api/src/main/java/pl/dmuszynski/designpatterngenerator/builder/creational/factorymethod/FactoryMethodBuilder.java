@@ -1,14 +1,16 @@
-package pl.dmuszynski.designpatterngenerator.builder.creational;
+package pl.dmuszynski.designpatterngenerator.builder.creational.factorymethod;
 
-public class FactoryMethodBuilder extends FactoryMethod {
+public class FactoryMethodBuilder implements IFactoryMethod {
+
+    private FactoryMethodPattern factoryBuilderPattern;
 
     @Override
     public void buildProduct() {
-
+//        factoryBuilderPattern.setProduct();
     }
 
     @Override
-    public void buildConcreteProduct() {
+    public void buildConcreteProducts() {
 
     }
 
@@ -18,7 +20,11 @@ public class FactoryMethodBuilder extends FactoryMethod {
     }
 
     @Override
-    public void buildConcreteCreator() {
+    public void buildConcreteCreators() {
 
+    }
+
+    public FactoryMethodPattern getResult() {
+        return this.factoryBuilderPattern;
     }
 }

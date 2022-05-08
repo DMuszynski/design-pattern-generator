@@ -1,0 +1,16 @@
+Harmonogram pracy na ten etap
+ ------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+|    27.03.2022    |    10.04.2022    |           2          | Dodanie części teoretycznej wzorców projektowych z przykładem zastosowania  |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+
+Co zostało zrealizowane w aktualnym etapie ?
+
+W trakcie tego etapu został wykonany wstęp teoretyczny opisujący wykorzystywane w narzędziu wzorce projektowe
+W celu zwiększenia przejrzystości owego wstepu, został on wykonany na podstronie wiki na platformie github pod adresem:
+https://github.com/DMuszynski/design-pattern-generator/wiki
+
+Co będzie realizowane w kolejnym etapie ?
+
+W kolejnym etapie przygotowana zostanie dalsza część teorii dotyczącej wzorców projetkowych.

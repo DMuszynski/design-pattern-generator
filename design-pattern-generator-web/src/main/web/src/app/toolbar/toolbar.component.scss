@@ -1,5 +1,8 @@
 mat-toolbar {
   height: 10%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 mat-toolbar-row {
   height: 100%;

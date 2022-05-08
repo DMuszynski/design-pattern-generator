@@ -1,8 +1,11 @@
-mat-sidenav-container {
-  //height: calc(100vh - 65px);
+mat-sidenav-container{
+  min-height: 90vh;
 }
+
 mat-sidenav {
-  margin: 15px 12px 0 0;
+  min-height: 100%;
+  //margin: 0px 12px 0 0;
+  //padding-top: 90px;
   width: 220px;
   border-right: none;
   background: #f44336;
@@ -13,6 +16,8 @@ mat-sidenav {
 mat-nav-list{
   padding: 0;
   margin: 5px;
+  //position: sticky;
+  //top:0;
 }
 mat-list-item {
   font-size: 14px !important;
@@ -22,14 +27,11 @@ mat-expansion-panel{
   background: inherit;
   margin-bottom: 5px;
 }
-.content {
-  height: calc(90vh - 16px);
-  margin: 16px 16px 0 16px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: lightgray;
-  border-radius: 5px 5px 0 0;
+mat-icon {
+  margin-right: 8px;
 }
+
+
+//height:120px;
+//overflow:scroll;
+//overflow-x:hidden;

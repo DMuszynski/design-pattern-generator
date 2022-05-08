@@ -1,0 +1,32 @@
+$content-height: calc(90vh - 16px);
+$tab-content-height: calc(90vh - 16px - 50px - 60px - 16px);
+#content {
+  min-height: $content-height;
+  height: 100%;
+  margin: 16px 16px 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: lightgray;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+mat-tab-group {
+  min-width: 100%;
+  min-height: inherit;
+}
+
+.tab-content {
+  width: inherit;
+  min-height: $tab-content-height;
+  display: flex;
+  background-color: #3A3A3A;
+  line-height: 2rem;
+  padding: 30px 100px;
+  margin: 16px 16px 0 16px;
+  border-radius: 5px 5px 0 0;
+  justify-content: center;
+  overflow-y: auto;
+}

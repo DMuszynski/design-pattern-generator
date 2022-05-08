@@ -1,0 +1,23 @@
+header {
+  min-height: 5vh;
+  text-align: center;
+  width: 50%;
+  margin: auto auto 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px #c2185b solid;
+}
+
+.content-header{
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+}
+
+.content-text {
+  letter-spacing: 0.05rem;
+  font-weight: 100;
+}
+
+.ul-list-bold {
+  font-weight: 500;
+}

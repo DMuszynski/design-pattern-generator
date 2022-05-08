@@ -2,14 +2,14 @@ Harmonogram pracy na ten etap
  ------------------------------------------------------------------------------------------------------------------------------------------
 | Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
  ------------------------------------------------------------------------------------------------------------------------------------------
-|    11.04.2022    |    24.04.2022    |           3          | Dodanie części teoretycznej wzorców projektowych z przykładem zastosowania  |
+|    25.04.2022    |    08.05.2022    |           4          | Przygotowanie szkieletu narzędzia do generowania wzorców projektowych       |
  ------------------------------------------------------------------------------------------------------------------------------------------
 
 Co zostało zrealizowane w aktualnym etapie ?
 
-W trakcie tego etapu został wykonana kontynuacja wstępu teoretycznego opisującego wykorzystywane w narzędziu wzorce projektowe
-W celu zwiększenia przejrzystości owego wstepu, został on wykonany na podstronie wiki na platformie github pod adresem:
+Przygotowanie szkieletu narzędzia do generowania wzorców projektowych
+Wstep teoretyczny:
 https://github.com/DMuszynski/design-pattern-generator/wiki
 
 Co będzie realizowane w kolejnym etapie ?
-W kolejnym etapie przygotowany zostanie szkielet narzędzia do generowania wzorców projektowych.
+W kolejnym etapie zajmę się implementacją systemu do generowania wzorców projektowych

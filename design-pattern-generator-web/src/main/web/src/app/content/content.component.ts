@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: 'app-content',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-  constructor() { }
+  private selectedPattern: string  = "singleton";
+
+  constructor(private activatedRoute: ActivatedRoute) {
+    this.activatedRoute.queryParams.subscribe(params => {
+      this.selectedPattern = params['pattern'];
+    });
+  }
 
   ngOnInit(): void {
   }
 
+  public getSelectedPattern(): string {
+    return this.selectedPattern;
+  }
 }
